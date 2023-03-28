@@ -9,4 +9,14 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int num;
     private String str;
+
+    public int getNum() {
+        return num;
+    }
+
+    public String getStr() {
+        return str;
+    }
+
+
 }
